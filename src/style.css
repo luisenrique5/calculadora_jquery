@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #bbb;
+}
+
+div.formulario {
+  width: 280px;
+  padding: 10px;
+  margin: auto;
+  background-color: black;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  top: 250px;
+}
+
+div.formulario form input[type="text"] {
+  width: 95%;
+  padding: 10% 3%;
+  background-color: black;
+  border: none;
+  outline: none;
+  text-align: right;
+  color: white;
+  font-size: 4em;
+}
+div.formulario form input[type="button"]{
+  width: 65px;
+  height: 65px;
+  font-size: 1.5em;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+div.formulario form input[type="button"].boton_ac {
+  width: 202px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: #9e9e9e;
+}
+div.formulario form input[type="button"].cero {
+  width: 130px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.botonAccion{
+  background-color: #f79013;
+  color: white;
+  border: none;
+}
+.botonnumero{
+  background-color: #333333;
+  color: white;
+  border: none;
+}
